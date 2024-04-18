@@ -29,8 +29,8 @@ image2.setAttribute("src" , randomImageSource2);  // schimbam sursa
 
 
 if (randomNumber1 > randomNumber2){
-    document.querySelector("h1").innerHTML = "🚩 Player 1";
-}  else if(randomNumber2 > randomNumber1){document.querySelector("h1").innerHTML = "Player 2 🚩";
+    document.querySelector("h1").innerHTML = "🏆 Jucatorul 1 a castigat!!! 🎉";
+}  else if(randomNumber2 > randomNumber1){document.querySelector("h1").innerHTML = "🎉 Jucatorul 2 a castigat!!! 🏆";
 }  else {
     document.querySelector("h1").innerHTML = "Egal";
 }
